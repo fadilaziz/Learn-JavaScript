@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const a = 1;
+        const b = 1;
+        const total = a.toString() + b.toString();
+
+        document.writeln(`<p>${total}</p>`);
+
+        document.writeln(`<p>${parseInt("1.salah")}`);
+        document.writeln(`<p>${parseFloat("salah")}`);
+
+        document.writeln(`<p>${Number("1fadil")}</p>`);
+        document.writeln(`<p>${Number("1fadil")}</p>`);
+        document.writeln(`<p>${Number("fadil2")}</p>`);
+
+        const first = Number("salah"); // NaN
+        const totalNumber = first + 100;
+        document.writeln(`<p>${totalNumber}</p>`);
+
+        document.writeln(`<p>${isNaN(first)}</p>`);
+
+    </script>
+</body>
+</html>

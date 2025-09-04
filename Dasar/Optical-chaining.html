@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const person = {
+            adress: {
+                country: "indonesia"
+            }
+        };
+
+        // menggunakan if else biasa 
+        if (person.adress !== undefined && person.adress) {
+            document.writeln("Alamat Tersedia")
+        } else {
+            document.writeln("Alamat Tidak Tersedia")
+        }
+
+        document.writeln("<br><br>");
+
+        // menggunakan Oprasi coalescing
+        let country = person?.adress?.country;
+        document.writeln(country);
+
+    </script>
+</body>
+</html>

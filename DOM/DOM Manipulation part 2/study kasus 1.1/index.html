@@ -1,0 +1,35 @@
+<!-- Buat sebuah tombol dengan tulisan "Klik Saya" .
+Saat tombol diklik, tampilkan peringatan dengan pesan "Halo, DOM!" .
+
+Buat sebuah paragraf dengan teks "Teks awal" .
+Lalu buat tombol "Ubah Teks" .
+Jika tombol diklik, teks paragraf berubah menjadi "Teks sudah berubah!" .
+
+Buat sebuah input teks dan tombol "Tampilkan" .
+Saat tombol diklik, ambil nilai dari input lalu tampilkan ke dalam sebuah paragraf. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Soal no 1 </p> <br>
+    <button onclick="tombolPeringatan()">Klik Saya</button> <br> <br>
+
+    <p>Soal no 2 </p> <br>
+    <button onclick="ubahText()">Ubah Text</button> <br>
+    <p id="text2">Teks awal</p> <br> <br>
+
+    <p>Soal no 3 </p> <br>
+    <button onclick="tampilkanTeks()">Tampilkan</button> <br>
+    <input type="text" id="inputTeks"> <br>
+    <p id="outputTeks"></p>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Soal 5 – Perbesar & Perkecil Gambar
+
+Buat sebuah <img> (bebas pakai gambar online).
+
+Buat 2 tombol: "Perbesar" dan "Perkecil".
+
+Saat tombol Perbesar ditekan, ukuran gambar membesar.
+
+Saat tombol Perkecil ditekan, ukuran gambar mengecil.-

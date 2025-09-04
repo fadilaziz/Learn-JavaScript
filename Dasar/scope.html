@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // global scope / global scope bisa di akses oleh function manapun
+        let counter = 0;
+
+        function increment() {
+            // local scope / local scope hanya bisa di akses didalam function
+            counter++;
+            document.writeln(`<p>Counter: ${counter}</p>`);
+        }
+
+    </script>
+</body>
+</html>

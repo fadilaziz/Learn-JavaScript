@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let counter = 1;
+        // Menggunakan break untuk menghentikan perulangan
+        while(true) {
+            document.writeln(`Perulangan ke-${counter}<br>`);
+            counter++;
+
+            if (counter > 10) {
+                break; // Menghentikan perulangan jika counter lebih dari 10
+            }
+        }
+
+        // Contine untuk melanjutkan ke iterasi berikutnya
+        for(let i = 1 ; i <= 20; i++) { // Perulangan dari 1 sampai 20
+            if (i % 2 === 0) { // Mengecek apakah i adalah angka genap
+                // Jika i adalah angka genap, tampilkan pesan dan lanjutkan ke iterasi berikut
+                // tanpa mengeksekusi kode di bawahnya
+                document.writeln(`Angka genap: ${i}<br>`);
+                continue; // Melewati angka genap
+            }
+        }
+
+    </script>
+</body>
+</html>

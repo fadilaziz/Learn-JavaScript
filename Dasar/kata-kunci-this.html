@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        const person = {
+            name: "fadil",
+            sayHello: function(value) {
+                // unutk mengambil value dari name di dalam objek person 
+                // tidak bisa menggunakan person.name tetapi this.name
+                // karena this mengacu pada objek yang memanggil method ini
+                document.writeln(`Hello, my name is ${this.name} and I am ${value} years old`); // Output: Hello, my name is fadil and I am 25 years old
+            }
+        };
+
+        person.sayHello(25)
+
+    </script>
+</body>
+</html>

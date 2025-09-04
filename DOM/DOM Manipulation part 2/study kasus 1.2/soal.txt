@@ -1,0 +1,34 @@
+<!-- Soal Level 2
+
+Soal 4 – Tambah Item ke Daftar
+
+Buat sebuah <ul> kosong.
+
+Buat sebuah input + tombol "Tambah Item".
+
+Saat tombol diklik, ambil teks dari input lalu tambahkan <li> baru ke dalam <ul>.
+
+Setelah ditambahkan, kosongkan inputnya.
+
+---------------------------------------------
+
+Soal 5 – Perbesar & Perkecil Gambar
+
+Buat sebuah <img> (bebas pakai gambar online).
+
+Buat 2 tombol: "Perbesar" dan "Perkecil".
+
+Saat tombol Perbesar ditekan, ukuran gambar membesar.
+
+Saat tombol Perkecil ditekan, ukuran gambar mengecil.-
+
+---------------------------------------------------------------
+
+Soal 6 – Ganti Warna Background
+
+Buat sebuah tombol "Ganti Warna".
+
+Saat ditekan, warna background halaman berubah secara acak.
+
+Gunakan Math.random() untuk menghasilkan warna random. -->
+
