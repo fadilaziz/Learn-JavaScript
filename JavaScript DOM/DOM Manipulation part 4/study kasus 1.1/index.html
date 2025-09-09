@@ -13,14 +13,28 @@
         background-color: lightblue;
     }
 
-    .kotak-merah {
+    .kotak-red {
         width: 15px;
         height: 15px;
         background-color: red;
-        margin: 10px auto;
+        margin: 2px auto;
+    }
+    .kotak-green {
+        width: 15px;
+        height: 15px;
+        background-color: green;
+        margin: 2px auto;
+    }
+    .kotak-blue {
+        width: 15px;
+        height: 15px;
+        background-color: blue;
+        margin: 2px auto;
     }
 
-    .indikator-merah {
+    .indikator-red {
+        display: flex;
+        flex-direction: column;
         width: 200px;
         margin: 20px auto;
         text-align: center;
@@ -51,7 +65,6 @@
         <p>0</p>
     </div>
     <input type="range" name="range-blue" min="0" max="255" value="0"> <br>
-    <button type="button" id="tombolWarna">Ubah</button>
 
     <script src="script.js"></script>
 </body>
