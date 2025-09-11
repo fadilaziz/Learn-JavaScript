@@ -6,6 +6,18 @@
 //     card.style.display = 'none';
 // });
 
+// ---
+
+// DOM Traversal Method
+
+// - parentNode                = Node
+// - parentElement             = Element
+// - nextSibling               = Node
+// - nextElementSibling        = Element
+// - previousSibling           = Node
+// - previousElementSibling    = Element 
+
+// ---
 
 //DOM Traversal
 const close = document.querySelectorAll('.close');
@@ -22,3 +34,4 @@ close.forEach(function(el) {
         e.target.parentElement.style.display = 'none';
     })
 })
+
