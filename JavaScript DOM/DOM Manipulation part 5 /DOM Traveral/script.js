@@ -1,10 +1,24 @@
-const container = document.querySelectorAll("#container");
-const hapus = document.getElementsByClassName("hapus");
+// Event Hendling
+// const close = document.querySelector('.close');
+// const card = document.querySelector('.card');
 
-for (let i = 0; i < container.length; i++)  {
-    hapus[i].addEventListener("click", function() {
-        container[i].style.display = "none";
+// close.addEventListener('click', function() {
+//     card.style.display = 'none';
+// });
+
+
+//DOM Traversal
+const close = document.querySelectorAll('.close');
+// console.log(close);
+
+// for (let i = 0; i < close.length; i++) {
+//     close[i].addEventListener('click', function(e) {
+//         e.target.parentElement.style.display = 'none';
+//     }) 
+// }
+
+close.forEach(function(el) {
+    el.addEventListener('click', function(e) {
+        e.target.parentElement.style.display = 'none';
     })
-}
-
-
+})

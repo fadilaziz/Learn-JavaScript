@@ -1,75 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Traversal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .peserta {
-        border: 1px solid black;
-        width: 300px;
-        margin: 20px auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        padding: 5px;
-        border-radius: 20px;
-    }
-
-    .peserta img {
-        width: 80px;
-        height: 80px;
-        border-radius: 10px;
-    }
-
-    span
-    {
-        font-size: 24px;
-        cursor: pointer;
-    }
-
-</style>
 <body>
-    <h1>Daftar Peserta</h1>
-    <div id="container">
-        <div class="peserta">
-            <img src="img/Desain tanpa judul.jpg" alt="">
-            <div>
-                <h3>Peserta 1</h3>
-                <p>Deskripsi peserta 1</p>
-            </div>
-            <span class="hapus">-</span>
-        </div>
-        <div class="peserta">
-            <img src="img/Desain tanpa judul.jpg" alt="">
-            <div>
-                <h3>Peserta 1</h3>
-                <p>Deskripsi peserta 1</p>
-            </div>
-            <span class="hapus">-</span>
-        </div>
-        <div class="peserta">
-            <img src="img/Desain tanpa judul.jpg" alt="">
-            <div>
-                <h3>Peserta 1</h3>
-                <p>Deskripsi peserta 1</p>
-            </div>
-            <span class="hapus">-</span>
-        </div>
-        <div class="peserta">
-            <img src="img/Desain tanpa judul.jpg" alt="">
-            <div>
-                <h3>Peserta 1</h3>
-                <p>Deskripsi peserta 1</p>
-            </div>
-            <span class="hapus">-</span>
-        </div>
-    </div>
-    <script src="script.js"></script>
+
+<div class="container">
+
+    <div class="card">
+        <img src="img/Desain tanpa judul.jpg" width="96" height="96">
+        <span class="nama">Sandhika Galih</span>
+        <span class="telp">08123456789</span>
+        <span class="close">×</span>
+    </div> 
+    <div class="card">
+        <img src="img/Desain tanpa judul.jpg" width="96" height="96">
+        <span class="nama">Sandhika Galih</span>
+        <span class="telp">08123456789</span>
+        <span class="close">×</span>
+    </div> 
+    <div class="card">
+        <img src="img/Desain tanpa judul.jpg" width="96" height="96">
+        <span class="nama">Sandhika Galih</span>
+        <span class="telp">08123456789</span>
+        <span class="close">×</span>
+    </div> 
+    <div class="card">
+        <img src="img/Desain tanpa judul.jpg" width="96" height="96">
+        <span class="nama">Sandhika Galih</span>
+        <span class="telp">08123456789</span>
+        <span class="close">×</span>
+    </div> 
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
