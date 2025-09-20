@@ -53,3 +53,39 @@ function iniButuhParams(namamu = 'ini default') {
 
 iniButuhParams()
 
+//Array
+const arr = ['john', 'fadil', 'udin'];
+
+const [
+    orang1, orang2, orang3
+] = arr; //Destructuring array
+
+console.log(orang1);
+console.log(orang2);
+console.log(orang3);
+
+
+//const [state, setState] = useState();
+function useState() {
+    const value1 = 'ini value 1';
+    const value2 = 'ini value 2';
+
+    return [value1, value2];
+}
+
+const [data1, data2] = useState();
+
+console.log(data1);
+console.log(data2);
+
+function obj({name,age,address}) {
+    console.log(name, age, address);
+}
+
+const obj = {    
+    name : 'udin',
+    age : 20,
+    address : 'indonesia'
+}
+
+obj(obj)
